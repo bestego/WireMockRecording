@@ -1,0 +1,25 @@
+{
+  "id" : "461ca9a2-2f8f-48aa-a573-2672eb631fc9",
+  "name" : "name_greece",
+  "request" : {
+    "url" : "/name/greece",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"name\":\"Greece\",\"topLevelDomain\":[\".gr\"],\"alpha2Code\":\"GR\",\"alpha3Code\":\"GRC\",\"callingCodes\":[\"30\"],\"capital\":\"Athens\",\"altSpellings\":[\"GR\",\"Elláda\",\"Hellenic Republic\",\"Ελληνική Δημοκρατία\"],\"region\":\"Europe\",\"subregion\":\"Southern Europe\",\"population\":10858018,\"latlng\":[39.0,22.0],\"demonym\":\"Greek\",\"area\":131990.0,\"gini\":34.3,\"timezones\":[\"UTC+02:00\"],\"borders\":[\"ALB\",\"BGR\",\"TUR\",\"MKD\"],\"nativeName\":\"Ελλάδα\",\"numericCode\":\"300\",\"currencies\":[{\"code\":\"EUR\",\"name\":\"Euro\",\"symbol\":\"€\"}],\"languages\":[{\"iso639_1\":\"el\",\"iso639_2\":\"ell\",\"name\":\"Greek (modern)\",\"nativeName\":\"ελληνικά\"}],\"translations\":{\"de\":\"Griechenland\",\"es\":\"Grecia\",\"fr\":\"Grèce\",\"ja\":\"ギリシャ\",\"it\":\"Grecia\",\"br\":\"Grécia\",\"pt\":\"Grécia\",\"nl\":\"Griekenland\",\"hr\":\"Grčka\",\"fa\":\"یونان\"},\"flag\":\"https://restcountries.eu/data/grc.svg\",\"regionalBlocs\":[{\"acronym\":\"EU\",\"name\":\"European Union\",\"otherAcronyms\":[],\"otherNames\":[]}],\"cioc\":\"GRE\"}]",
+    "headers" : {
+      "Date" : "Tue, 02 Jun 2020 12:50:35 GMT",
+      "Content-Type" : "application/json;charset=utf-8",
+      "Set-Cookie" : "__cfduid=d7db56c3f043da8997fdb8a2ac645e73e1591102235; expires=Thu, 02-Jul-20 12:50:35 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax",
+      "Cache-Control" : "public, max-age=86400",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "0316ae7a980000d9114f262200000001",
+      "Server" : "cloudflare",
+      "CF-RAY" : "59d14d0a88fdd911-AMS"
+    }
+  },
+  "uuid" : "461ca9a2-2f8f-48aa-a573-2672eb631fc9",
+  "persistent" : true,
+  "insertionIndex" : 2
+}

@@ -1,0 +1,25 @@
+{
+  "id" : "e4dda23d-69c8-482c-be10-a7af82471b6b",
+  "name" : "name_netherlands",
+  "request" : {
+    "url" : "/name/netherlands",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"name\":\"Netherlands\",\"topLevelDomain\":[\".nl\"],\"alpha2Code\":\"NL\",\"alpha3Code\":\"NLD\",\"callingCodes\":[\"31\"],\"capital\":\"Amsterdam\",\"altSpellings\":[\"NL\",\"Holland\",\"Nederland\"],\"region\":\"Europe\",\"subregion\":\"Western Europe\",\"population\":17019800,\"latlng\":[52.5,5.75],\"demonym\":\"Dutch\",\"area\":41850.0,\"gini\":30.9,\"timezones\":[\"UTC-04:00\",\"UTC+01:00\"],\"borders\":[\"BEL\",\"DEU\"],\"nativeName\":\"Nederland\",\"numericCode\":\"528\",\"currencies\":[{\"code\":\"EUR\",\"name\":\"Euro\",\"symbol\":\"€\"}],\"languages\":[{\"iso639_1\":\"nl\",\"iso639_2\":\"nld\",\"name\":\"Dutch\",\"nativeName\":\"Nederlands\"}],\"translations\":{\"de\":\"Niederlande\",\"es\":\"Países Bajos\",\"fr\":\"Pays-Bas\",\"ja\":\"オランダ\",\"it\":\"Paesi Bassi\",\"br\":\"Holanda\",\"pt\":\"Países Baixos\",\"nl\":\"Nederland\",\"hr\":\"Nizozemska\",\"fa\":\"پادشاهی هلند\"},\"flag\":\"https://restcountries.eu/data/nld.svg\",\"regionalBlocs\":[{\"acronym\":\"EU\",\"name\":\"European Union\",\"otherAcronyms\":[],\"otherNames\":[]}],\"cioc\":\"NED\"}]",
+    "headers" : {
+      "Date" : "Tue, 02 Jun 2020 12:50:29 GMT",
+      "Content-Type" : "application/json;charset=utf-8",
+      "Set-Cookie" : "__cfduid=dc6d9d7499da945604414262983369b101591102229; expires=Thu, 02-Jul-20 12:50:29 GMT; path=/; domain=.restcountries.eu; HttpOnly; SameSite=Lax",
+      "Cache-Control" : "public, max-age=86400",
+      "CF-Cache-Status" : "DYNAMIC",
+      "cf-request-id" : "0316ae642f0000faa4a1aca200000001",
+      "Server" : "cloudflare",
+      "CF-RAY" : "59d14ce6bb42faa4-AMS"
+    }
+  },
+  "uuid" : "e4dda23d-69c8-482c-be10-a7af82471b6b",
+  "persistent" : true,
+  "insertionIndex" : 1
+}
