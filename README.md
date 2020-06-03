@@ -33,7 +33,8 @@ Steps below illustrate how automatic stub recording can be implemented using Wir
 1. write your standard code including accompanying tests
 
 2. redirect rest client to WireMockServer ( localhost:\<port\> );
-here this can be done in *applications.properties* file.
+here this can be done in *applications.properties* file.   
+Note: no explicite *"stubFor"* required in further tests.
 
 3. before each @Test  
    a. start WireMockServer before/after each @Test using <port> definition as used under 1  
