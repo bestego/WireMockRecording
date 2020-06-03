@@ -1,6 +1,6 @@
 # WireMock automatic stub generation
 
-This sample excercise project illustrates how the integrated version of WireMock can be used to automatically generate persistent stubs for testing purposes,
+This sample excercise project illustrates how the **integrated**  version of WireMock can be used to **automatically** generate **persistent** stubs for testing purposes,
 instead of manually creating these.
 This project is using a Quarkus Rest Client that interrogates an external REST API.
 
@@ -32,9 +32,8 @@ Steps below illustrate how automatic stub recording can be implemented using Wir
 
 1. write your standard code including accompanying tests
 
-2. redirect rest client to WireMockServer (localhost:<port>/baseUrl);
+2. redirect rest client to WireMockServer (localhost:<port>);
 here this can be done in *applications.properties* file.
-*baseUrl = /country*
 
 3. before each @Test  
    a. start WireMockServer before/after each @Test using <port> definition as used under 1  
@@ -56,4 +55,6 @@ NOTE: WireMock either serves as a proxy (during recording) or as a stub using au
 * try to seperate WireMock elements from the standard @Test definitions (not sure if this is possible due to
 above point 3b) 
 * there is room for further refactoring
+* remove logging System.out.println statements
 * sort out alias rest-endpoint and use of *%test* prefix in *application.properties* ; current behaviour seems strange
+* investigate difference between recording and snapshotting
