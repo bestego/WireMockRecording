@@ -24,8 +24,8 @@ the external REST API provider. WireMockServer initially operates as a proxy, fo
 *CountriesService* requests to the remote REST API and routing back the received results as well.
 WireMock keeps a map in (volatile) memory of the send request and corrsponding received response;
 when receiving a susequent identical request, the memorized response will be used.
-In order make this mapping persistent in extenal files, the recording option is controlled 
-by the WireMockCLient.
+In order make this mapping persistent in extenal files, the recording option has to be used which is controlled 
+by  WireMockCLient.
 
 ## WireMock implementation steps
 Steps below illustrate how automatic stub recording can be implemented using WireMock
