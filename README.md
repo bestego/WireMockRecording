@@ -53,6 +53,7 @@ Note: no explicite *"stubFor"* required in further tests.
 NOTE: WireMock either serves as a proxy (during recording) or as a stub using automatically generated mapping files (when NOT recording)
 
 ## ToDo
+* sort out how to pass user credentials (certificate, headers) through WM as proxy
 * try to seperate WireMock elements from the standard @Test definitions (not sure if this is possible due to
 above point 3b) 
 * there is room for further refactoring
